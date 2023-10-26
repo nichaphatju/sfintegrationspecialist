@@ -1,0 +1,7 @@
+<apex:component controller="RegistrationFormController" access="global">
+    <apex:attribute name="recId" type="Id" description="Id of the record" assignTo="{!recordId}" />
+    <!-- Begin Default Content REMOVE THIS -->
+    <h1>Please provide your consent</h1>
+    <!-- End Default Content REMOVE THIS -->
+    <apex:commandButton action="{!submitConsent}" value="Yes" id="theButton"/>
+</apex:component>
